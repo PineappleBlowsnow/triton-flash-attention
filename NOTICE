@@ -1,0 +1,14 @@
+Triton Attention Lab
+
+This portfolio package contains coursework by Ying Jin (PineappleBlowsnow)
+and materials derived from the Apache License 2.0 course repository:
+https://github.com/dataflowr/gpu_llm_flash-attention
+
+Classroom working repository:
+https://github.com/llm-2026/flash-attention-PineappleBlowsnow
+
+The course scaffold and supplied tests retain their original authorship.
+LICENSE is copied unchanged from the source repository.
+The packaging, documentation, selected adapters and historical test summary
+were prepared for this portfolio release in September 2026.
+See PROVENANCE.md and provenance.json for the exact file provenance.

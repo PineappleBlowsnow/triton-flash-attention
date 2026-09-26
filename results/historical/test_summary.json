@@ -1,0 +1,229 @@
+{
+  "evidence_type": "historical classroom test output; not rerun during publication",
+  "source_file": "test_results.xml",
+  "source_sha256": "4338f500b1f0460371c7de7cb2138156219ada131148fa60ae45ac491440e676",
+  "source_commit": "01c98c0b6b5c10ebf760f810e9093b25c233a007",
+  "tests": 43,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "The original full course suite included online-softmax and softmax-matmul exercises not included in this attention-only package. This is not a 43-test claim for the published subset.",
+  "sanitization": "Original machine hostname and timestamps omitted.",
+  "cases": [
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_forward_pass_pytorch",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_forward_pass_triton[False]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_forward_pass_triton[True]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_backward_pytorch",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_backward_triton[False]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_attention",
+      "name": "test_flash_backward_triton[True]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[1-128-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[1-128-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[2-256-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[2-256-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[4-512-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_forward_correctness[4-512-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_causal_attention[1-128-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_causal_attention[1-128-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_causal_attention[2-256-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_causal_attention[2-256-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_output_shape[triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionForward",
+      "name": "test_output_shape[pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_correctness[2-128-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_correctness[2-128-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_correctness[2-256-128-triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_correctness[2-256-128-pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_causal[triton]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_attention.TestFlashAttentionBackward",
+      "name": "test_backward_causal[pytorch]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_memory",
+      "name": "test_flash_attention_no_quadratic_saved_tensors",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_memory",
+      "name": "test_flash_attention_expected_saved_tensors",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_flash_memory",
+      "name": "test_flash_attention_forward_memory",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxForward",
+      "name": "test_forward_correctness[shape0-8]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxForward",
+      "name": "test_forward_correctness[shape1-16]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxForward",
+      "name": "test_forward_correctness[shape2-32]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxForward",
+      "name": "test_output_properties",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxForward",
+      "name": "test_numerical_stability",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxBackward",
+      "name": "test_backward_correctness[shape0-16]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_online_softmax.TestOnlineSoftmaxBackward",
+      "name": "test_backward_correctness[shape1-32]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_correctness[shape_x0-shape_v0-16]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_correctness[shape_x1-shape_v1-16]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_correctness[shape_x2-shape_v2-32]",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_output_shape",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_numerical_stability",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_softmax_matmul.TestFusedSoftmaxForward",
+      "name": "test_different_d3_sizes",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_triton_usage",
+      "name": "test_triton_class_uses_triton_kernels",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_triton_usage",
+      "name": "test_triton_forward_calls_kernel",
+      "status": "passed"
+    },
+    {
+      "classname": "tests.test_triton_usage",
+      "name": "test_triton_class_different_from_pytorch",
+      "status": "passed"
+    }
+  ]
+}

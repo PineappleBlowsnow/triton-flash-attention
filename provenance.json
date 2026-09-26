@@ -1,0 +1,87 @@
+{
+  "prepared": "2026-09-26",
+  "source_repository": "https://github.com/llm-2026/flash-attention-PineappleBlowsnow",
+  "source_commit": "01c98c0b6b5c10ebf760f810e9093b25c233a007",
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "published_path": "LICENSE",
+      "source_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "published_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "course-provided test/scaffold"
+    },
+    {
+      "source_path": "flash_attention/flash_attention.py",
+      "published_path": "flash_attention/flash_attention.py",
+      "source_sha256": "4c134123fd5a723493ef207d9c0a0eb00e682ee73f98f3d33373780e52a80385",
+      "published_sha256": "4c134123fd5a723493ef207d9c0a0eb00e682ee73f98f3d33373780e52a80385",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "student implementation or historical result"
+    },
+    {
+      "source_path": "flash_attention/__init__.py",
+      "published_path": "flash_attention/__init__.py",
+      "source_sha256": "afc5bbf4bca6399dfd6f14cb8408b324ff013166fa12a61f920657efb5f7610e",
+      "published_sha256": "afc5bbf4bca6399dfd6f14cb8408b324ff013166fa12a61f920657efb5f7610e",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "student implementation or historical result"
+    },
+    {
+      "source_path": "benchmarking/bench_attention.py",
+      "published_path": "benchmarking/bench_attention.py",
+      "source_sha256": "c3682be66207dcd050876f7a6317c0c7d5dfa61a6fd6a775ab83991a623fd322",
+      "published_sha256": "c3682be66207dcd050876f7a6317c0c7d5dfa61a6fd6a775ab83991a623fd322",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "student implementation or historical result"
+    },
+    {
+      "source_path": "tests/test_attention.py",
+      "published_path": "tests/test_attention.py",
+      "source_sha256": "3bd8ef171cca5bc363e2bd886492d91e47b7d9acafa567ee0ba9ed4796fab976",
+      "published_sha256": "3bd8ef171cca5bc363e2bd886492d91e47b7d9acafa567ee0ba9ed4796fab976",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "course-provided test/scaffold"
+    },
+    {
+      "source_path": "tests/test_flash_attention.py",
+      "published_path": "tests/test_flash_attention.py",
+      "source_sha256": "8108b4c6bc265e34fb7158f7337580ef9ec77558ccad16b6d6e1493d96139ce1",
+      "published_sha256": "8108b4c6bc265e34fb7158f7337580ef9ec77558ccad16b6d6e1493d96139ce1",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "course-provided test/scaffold"
+    },
+    {
+      "source_path": "tests/conftest.py",
+      "published_path": "tests/conftest.py",
+      "source_sha256": "f4c50fb36231a6c2e67135152b6f117b741a3c3cd42562d0753cebb3aed4951e",
+      "published_sha256": "f4c50fb36231a6c2e67135152b6f117b741a3c3cd42562d0753cebb3aed4951e",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "course-provided test/scaffold"
+    },
+    {
+      "source_path": "outputs/attention_benchmark.csv",
+      "published_path": "results/historical/attention_benchmark.csv",
+      "source_sha256": "db516dabaf4ef17c2b87e8547382b1a9f42dd80bf05e2e8dc2a6c8073a61cbfc",
+      "published_sha256": "db516dabaf4ef17c2b87e8547382b1a9f42dd80bf05e2e8dc2a6c8073a61cbfc",
+      "byte_identical_to_source": true,
+      "matches_final_commit": true,
+      "role": "student implementation or historical result"
+    },
+    {
+      "source_path": "tests/adapters.py",
+      "published_path": "tests/adapters.py",
+      "source_sha256": "07ffb8ccc9e0b31d91f35beb03a335be78f41fb0f4ddb2656c605dad77b5d330",
+      "published_sha256": "36ee84bda8ec9db05d073a0647e1f4e006f9ee7048cb1c1846462a35b7d1fa4d",
+      "role": "course-provided adapters, narrowed for publication",
+      "changes": "Retained attention adapters only; updated module docstring. No implementation changes."
+    }
+  ]
+}

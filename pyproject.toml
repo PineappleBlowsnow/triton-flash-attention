@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triton-attention-lab"
+version = "0.1.0"
+description = "Coursework: tiled Triton attention forward with a PyTorch backward"
+requires-python = ">=3.10"
+dependencies = ["torch", "triton"]
+license = {text = "Apache-2.0"}
+
+[project.optional-dependencies]
+test = ["pytest", "einops"]
+benchmark = ["pandas"]
+
+[tool.setuptools.packages.find]
+include = ["flash_attention*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
