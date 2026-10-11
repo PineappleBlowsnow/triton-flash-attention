@@ -82,4 +82,4 @@ On 2026-09-26, the portfolio copy was checked for Python syntax, TOML/JSON valid
 Useful next experiments are a genuinely tiled backward, non-aligned sequence-length tests, fixed SDPA backends and separately measured forward/backward latency. These are future work, not completed results.
 
 
-[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
+[Back to Ying Jin's project directory](https://github.com/PineappleBlowsnow#mva-projects)
