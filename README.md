@@ -1,4 +1,6 @@
-# Triton Attention Lab
+# Implementing Tiled Attention in Triton
+
+**MVA course — LLMs for Code and Proof**
 
 A compact MVA coursework implementation of **tiled attention with online softmax**. The forward pass is implemented in Triton; the custom backward is implemented in PyTorch and reconstructs the full attention matrices.
 
@@ -78,3 +80,6 @@ On 2026-09-26, the portfolio copy was checked for Python syntax, TOML/JSON valid
 - The fused softmax-matmul solution, full lecture notebooks, grading/submission machinery, uncommitted explanatory drafts, machine-specific XML metadata and hidden Git history are deliberately outside this package.
 
 Useful next experiments are a genuinely tiled backward, non-aligned sequence-length tests, fixed SDPA backends and separately measured forward/backward latency. These are future work, not completed results.
+
+
+[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
